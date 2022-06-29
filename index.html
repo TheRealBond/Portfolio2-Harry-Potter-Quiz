@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="harry potter quiz for fans to test their knowledge">
     <meta name="keywords" content="harry potter, quiz, magic, wizard, films, books, hogwarts, witch">
+    <!--favicon links to load Mage icon-->
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
     <title>Harry Potter Quiz!</title>
 
         <!-- stylesheet -->
@@ -19,8 +25,28 @@
         <h1>Welcome to the Harry Potter Quiz</h1>
     </header>
 
-    <h2>Answer the questions below to test your knowledge of the Wizarding World, Good luck!</h2>
+    <h2>Choose your Hogwarts House to reveal your questions, Good luck!</h2>
 
+    <div class="house">
+        <button data-type="gryffindor" class="btn btn--big btn--red"></button>
+        <button data-type="hufflepuff" class="btn btn--big btn--yellow"></button>
+        <button data-type="ravenclaw" class="btn btn--big btn--blue"></button>
+        <button data-type="slytherin" class="btn btn--big btn--green"></button>
+    </div>
+
+    <div class="question-area">
+        <div class="questions" id="question1"></div>
+        <div class="questions" id="question2"></div>
+        <div class="questions" id="question3"></div>
+        <div class="questions" id="question4"></div>
+        <div class="questions" id="question4"></div>
+
+    </div>
+
+    <footer>
+        <p class="scores">Correct Answers: <span id="correct">0</span></p>
+        <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+    </footer>
     <script src="/assets/script.js"></script>
 </body>
 </html>
