@@ -4,8 +4,10 @@ header {
     color: gold;
     background-color: blue;
     text-align: center;
-    height: 33%;
+    height: 50%;
     width: 100%;
+    margin: 0 auto;
+    padding: 5%;
 }
 
 body{
