@@ -48,7 +48,9 @@ function checkAnswers() {
     let userAnswer2 = (document.getElementById("q2-answer-box").value)
     let correctUserAnswer2 = "Nimbus 2000";
     if (userAnswer2 === correctUserAnswer1) {
-     
+        alert(`Congratulations you are correct, it was Nimbus 2000!`);
+    } else {
+        alert(`Incorrect it was Nimbus 2000.`)
     }
 }
 
