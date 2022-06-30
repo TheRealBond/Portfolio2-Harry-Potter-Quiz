@@ -43,14 +43,26 @@ function checkAnswers() {
     let correctUserAnswer1 = 713;
     if (userAnswer1 == correctUserAnswer1) {
         alert(`Congratulations you are correct!`);
-    } else { alert(`Unlucky, it was vault number 713.`);
     }
     let userAnswer2 = (document.getElementById("q2-answer-box").value)
     let correctUserAnswer2 = "Nimbus 2000";
-    if (userAnswer2 === correctUserAnswer1) {
+    if (userAnswer2 === correctUserAnswer2) {
         alert(`Congratulations you are correct, it was Nimbus 2000!`);
-    } else {
-        alert(`Incorrect it was Nimbus 2000.`)
+    }
+    let userAnswer3 = (document.getElementById("q3-answer-box").value)
+    let correctUserAnswer3 = "Godric's Hollow";
+    if (userAnswer3 === correctUserAnswer3) {
+        alert(`Congratulations you are correct, it was Godric's Hollow!`);
+    }
+    let userAnswer4 = (document.getElementById("q4-answer-box").value)
+    let correctUserAnswer4 = "Stag";
+    if (userAnswer4 === correctUserAnswer4) {
+        alert(`Congratulations you are correct, it's a Stag!`);
+    }
+    let userAnswer5 = (document.getElementById("q5-answer-box").value)
+    let correctUserAnswer5 = "Nicolas Flamel";
+    if (userAnswer5 === correctUserAnswer5) {
+        alert(`Congratulations you are correct, it was Nicolas Flamel!`);
     }
 }
 
