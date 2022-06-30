@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let button of buttons) {
         button.addEventListener("click", function() {
             if (this.getAttribute("data-type") === "submit") {
-                checkAnswers(), House();
+                checkAnswers();
+                 House();
             } else if (this.getAttribute("id") === "btn--red") {
                 displayGryffindor();
             } else if (this.getAttribute("id") === "btn--yellow") {
@@ -38,29 +39,17 @@ function House() {
  * awards points to Correct/Incorrect Answer tally.
  */
 function checkAnswers() {
-    let userAnswer1 = parseInt(document.getElementById("q1-answer-box").value)
-    let correctUserAnswer1 = "713"
-    if (userAnswer1 === correctUserAnswer1) {
-        increaseCorrect();
-    } else {
-        increaseIncorrect();
+    let userAnswer1 = document.getElementById("q1-answer-box").value;
+    let correctUserAnswer1 = 713;
+    if (userAnswer1 == correctUserAnswer1) {
+        alert(`Congratulations you are correct!`);
+    } else { alert(`Unlucky, it was vault number 713.`);
     }
-}
-
-/**
- * This adds 1 to the Correct Answers tally each time an answer is correct.
- */
-function increaseCorrect() {
-    let previousScore = parseInt(document.getElementById("correct").innerText);
-    document.getElementById("score").innerText = ++previousScore;
-}
-
-/**
- * This adds 1 to the Incorrect Answers tally each time an answer is incorrect.
- */
-function increaseIncorrect() {
-    let previousScore = parseInt(document.getElementById("incorrect").innerText);
-    document.getElementById("incorrect").innerText = ++previousScore;
+    let userAnswer2 = (document.getElementById("q2-answer-box").value)
+    let correctUserAnswer2 = "Nimbus 2000";
+    if (userAnswer2 === correctUserAnswer1) {
+     
+    }
 }
 
 /**
