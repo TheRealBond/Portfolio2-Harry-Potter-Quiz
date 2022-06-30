@@ -62,8 +62,16 @@ function checkAnswers() {
     let userAnswer5 = (document.getElementById("q5-answer-box").value)
     let correctUserAnswer5 = "Nicolas Flamel";
     if (userAnswer5 === correctUserAnswer5) {
-        alert(`Congratulations you are correct, it was Nicolas Flamel!`);
-    }
+        increaseScore();
+    } 
+}
+
+/**
+ * Adds 1 to the Correct Answers total.
+ */
+function increaseScore() {
+    let currentscore = parseInt(document.getElementById("correct").innerText);
+    document.getElementById("correct").innerText = ++currentscore;
 }
 
 /**

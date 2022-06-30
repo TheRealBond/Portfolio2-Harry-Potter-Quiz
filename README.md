@@ -9,3 +9,5 @@ Code used: "    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'
     
 Font Awesome wizard hat icon website: https://fontawesome.com/icons/hat-wizard?s=regular
 Code used: " <i class="fa-solid fa-hat-wizard"></i>"
+
+use of alerts to test CheckAnswers function is working correctly when comparing user answers to correct ones held in Javascript.
