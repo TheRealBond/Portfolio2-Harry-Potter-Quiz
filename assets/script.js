@@ -38,7 +38,29 @@ function House() {
  * awards points to Correct/Incorrect Answer tally.
  */
 function checkAnswers() {
+    let userAnswer1 = parseInt(document.getElementById("q1-answer-box").value)
+    let correctUserAnswer1 = "713"
+    if (userAnswer1 === correctUserAnswer1) {
+        increaseCorrect();
+    } else {
+        increaseIncorrect();
+    }
+}
 
+/**
+ * This adds 1 to the Correct Answers tally each time an answer is correct.
+ */
+function increaseCorrect() {
+    let previousScore = parseInt(document.getElementById("correct").innerText);
+    document.getElementById("score").innerText = ++previousScore;
+}
+
+/**
+ * This adds 1 to the Incorrect Answers tally each time an answer is incorrect.
+ */
+function increaseIncorrect() {
+    let previousScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++previousScore;
 }
 
 /**
