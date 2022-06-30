@@ -43,27 +43,37 @@ function checkAnswers() {
     let correctUserAnswer1 = 713;
     if (userAnswer1 == correctUserAnswer1) {
         increaseScore();
+    } else {
+        incorrectScore();
     }
     let userAnswer2 = (document.getElementById("q2-answer-box").value)
     let correctUserAnswer2 = "Nimbus 2000";
     if (userAnswer2 === correctUserAnswer2) {
         increaseScore();
+    } else {
+        incorrectScore();
     }
     let userAnswer3 = (document.getElementById("q3-answer-box").value)
     let correctUserAnswer3 = "Godric's Hollow";
     if (userAnswer3 === correctUserAnswer3) {
         increaseScore();
+    } else {
+        incorrectScore();
     }
     let userAnswer4 = (document.getElementById("q4-answer-box").value)
     let correctUserAnswer4 = "Stag";
     if (userAnswer4 === correctUserAnswer4) {
         increaseScore();
+    } else {
+        incorrectScore();
     }
     let userAnswer5 = (document.getElementById("q5-answer-box").value)
     let correctUserAnswer5 = "Nicolas Flamel";
     if (userAnswer5 === correctUserAnswer5) {
         increaseScore();
-    } 
+    } else {
+        incorrectScore();
+    }
 }
 
 /**
@@ -72,6 +82,11 @@ function checkAnswers() {
 function increaseScore() {
     let currentscore = parseInt(document.getElementById("correct").innerText);
     document.getElementById("correct").innerText = ++currentscore;
+}
+
+function incorrectScore() {
+    let incorrectscore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++incorrectscore;
 }
 
 /**
