@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
+//This sets the variable of house to allow running of alert to ask user to choose house.
 var house = "unknown";
 
 /**
@@ -55,14 +56,19 @@ function displayGryffindor() {
  * the house colours of Hufflepuff, sets house to Hufflepuff.
  */
 function displayHufflepuff() {
-
+    document.getElementById("quiz-area").style.backgroundColor = "yellow";
+    house = "Hufflepuff";
+    console.log(house);
 }
+
 /**
  * This changes the background of the quiz area to blue to match
  * the house colours of Ravenclaw, sets house to Ravenclaw.
  */
 function displayRavenclaw() {
-
+    document.getElementById("quiz-area").style.backgroundColor = "lightskyblue";
+    house = "Ravenclaw";
+    console.log(house);
 }
 
 /**
@@ -70,5 +76,7 @@ function displayRavenclaw() {
  * the house colours of Slytherin, sets house to Slytherin.
  */
 function displaySlytherin() {
-
+    document.getElementById("quiz-area").style.backgroundColor = "lightgreen";
+    house = "Slytherin";
+    console.log(house);
 }

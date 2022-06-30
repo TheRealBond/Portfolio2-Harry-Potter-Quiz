@@ -31,7 +31,7 @@ body{
 }
 
 #btn--blue {
-    background-color: blue;
+    background-color: lightskyblue;
 }
 
 #btn--green {
@@ -41,6 +41,7 @@ body{
 #quiz-area {
     width: 75%;
     display: block;
+    color: black;
 }
 
 @media screen and (max-width: 750px) {
