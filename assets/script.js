@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
-let house = "unknown";
+var house = "unknown";
 
 /**
  * This checks that a Hogwarts house has been selected and if not
@@ -45,8 +45,9 @@ function checkAnswers() {
  * the house colours of Gryffindor, sets house to Gryffindor.
  */
 function displayGryffindor() {
-    document.getElementById("quiz-area").style.backgroundColor = red;
-    let house = "Gryffindor";
+    document.getElementById("quiz-area").style.backgroundColor = "red";
+    house = "Gryffindor";
+    console.log(house);
 }
 
 /**
