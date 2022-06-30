@@ -1,20 +1,30 @@
-//let DOM load before running the quiz game
+//Checks that the Dom has loaded before running the quiz
+//Adds event listeners to the buttons
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
     for (let button of buttons) {
-        button.addEventListener("click", function(){
+        button.addEventListener("click", function() {
             if (this.getAttribute("data-type") === "submit") {
-                checkAnswers(), House(house);
-        } else if (this.getAttribute("data-type") === "gryffindor") {
-            displayGryffindor();
-        }
-    }}
+                checkAnswers(), house();
+            } else if (this.getAttribute("id") === "btn--red") {
+                displayGryffindor();
+            } else if (this.getAttribute("id") === "btn--yellow") {
+                displayHufflepuff();
+            } else if (this.getAttribute("id") === "btn--blue") {
+                displayRavenclaw();
+            } else if (this.getAttribute("id") === "btn--green") {
+                displaySlytherin();
+            }
+        })
+    }
+})
 
 /**
  * This checks that a Hogwarts house has been selected and if not
  * alerts the user to choose one.
  */
-function House(house) {
+function House() {
         if (house === "unknown"){
             alert(`Please choose your Hogwarts House`);
         }
