@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let button of buttons) {
         button.addEventListener("click", function() {
             if (this.getAttribute("data-type") === "submit") {
-                checkAnswers(), house();
+                checkAnswers(), House();
             } else if (this.getAttribute("id") === "btn--red") {
                 displayGryffindor();
             } else if (this.getAttribute("id") === "btn--yellow") {
@@ -19,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 })
+
+let house = "unknown";
 
 /**
  * This checks that a Hogwarts house has been selected and if not
