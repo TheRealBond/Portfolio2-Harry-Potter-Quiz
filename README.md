@@ -15,7 +15,7 @@ A website built using HTML5, CSS and Javascript to allow users to test their Har
 - Footer: This area will also respond to the user's answers when they click the Submit Answers button by adding to the Correct and Incorrect Answer tallys depending if the user's answers are correct. It also has a hyper-link included to enable the user to click and go to the official website of Harry Potter (https://www.wizardingworld.com/) in a new tab/window where they can research their answers if needed or simply enjoy learning more about Harry Potter.
 ![footerimage](/assets/images/footer-readme.png)
 
--Future: In the future I would like to add the ability to show house scores for the duration of the day or week to enable the running of a competion bewteen fans to see which house scores the highest and would win the house cup for that time duration. This hasn't been implemented yet as it would require an external database to hold the user's score and Hogwarts house which is not set up yet.
+-Future: In the future I would like to add the ability to show house scores for the duration of the day or week to enable the running of a competion between fans to see which house scores the highest and would win the house cup for that time period. This hasn't been implemented so far as it would require an external database to hold the user's score and Hogwarts house which is not set up yet.
 
 ## Testing:
 
@@ -38,7 +38,7 @@ Use of alerts to test checkAnswers function was working correctly when comparing
 ![lighthousepassimage](/assets/images/lighthousepass.png)
 
 ## Bugs: 
-There are now no bugs remaining having encountered one that would not load the wesbite's CSS when it was deployed. This was removed by adding the correct file pathway (href="./assets/css/style.css") that needed the ./ to begin with to find the assets folder which holds the css folder and file.
+There are now no bugs remaining having encountered one that would not load the website's CSS when it was deployed. This was removed by adding the correct file pathway `(href="./assets/css/style.css")` that needed the `./` to begin with to find the assets folder which holds the css folder and file.
 
 ## Deployment:
  This website was built using Gitpod and Github services which has now been deployed at the following address: (https://therealbond.github.io/Portfolio2-Harry-Potter-Quiz/)
