@@ -36,43 +36,53 @@ function House() {
 
 /**
  * This checks the user's answers against the correct answers and
- * awards points to Correct/Incorrect Answer tally.
+ * awards points to Correct/Incorrect Answer tally and changes answer box background color to gold if correct.
  */
 function checkAnswers() {
     let userAnswer1 = document.getElementById("q1-answer-box").value;
     let correctUserAnswer1 = 713;
     if (userAnswer1 == correctUserAnswer1) {
         increaseScore();
+        document.getElementById("q1-answer-box").style.backgroundColor = "gold";
     } else {
         incorrectScore();
+        document.getElementById("q1-answer-box").style.backgroundColor = "white"
     }
     let userAnswer2 = (document.getElementById("q2-answer-box").value);
     let correctUserAnswer2 = "Nimbus 2000";
     if (userAnswer2 === correctUserAnswer2) {
         increaseScore();
+        document.getElementById("q2-answer-box").style.backgroundColor = "gold";
     } else {
         incorrectScore();
+        document.getElementById("q2-answer-box").style.backgroundColor = "white";
     }
     let userAnswer3 = (document.getElementById("q3-answer-box").value);
     let correctUserAnswer3 = "Godric's Hollow";
     if (userAnswer3 === correctUserAnswer3) {
         increaseScore();
+        document.getElementById("q3-answer-box").style.backgroundColor = "gold";
     } else {
         incorrectScore();
+        document.getElementById("q3-answer-box").style.backgroundColor = "white";
     }
     let userAnswer4 = (document.getElementById("q4-answer-box").value);
     let correctUserAnswer4 = "Stag";
     if (userAnswer4 === correctUserAnswer4) {
         increaseScore();
+        document.getElementById("q4-answer-box").style.backgroundColor = "gold";
     } else {
         incorrectScore();
+        document.getElementById("q4-answer-box").style.backgroundColor = "white";
     }
     let userAnswer5 = (document.getElementById("q5-answer-box").value);
     let correctUserAnswer5 = "Nicolas Flamel";
     if (userAnswer5 === correctUserAnswer5) {
         increaseScore();
+        document.getElementById("q5-answer-box").style.backgroundColor = "gold";
     } else {
         incorrectScore();
+        document.getElementById("q5-answer-box").style.backgroundColor = "white";
     }
 }
 
@@ -82,8 +92,12 @@ function checkAnswers() {
 function increaseScore() {
     let currentscore = parseInt(document.getElementById("correct").innerText);
     document.getElementById("correct").innerText = ++currentscore;
+
 }
 
+/**
+ * Adds 1 to the Incorrect Answers total.
+ */
 function incorrectScore() {
     let incorrectscore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++incorrectscore;
