@@ -27,6 +27,7 @@
 
     <h2>First choose your Hogwarts House <i class="fa-solid fa-hat-wizard"></i> and then answer the questions below, Good luck!</h2>
 
+    <!--Hogwarts house selection area for user to allow for future comparison of house scores-->
     <div class="house">
         <h3>Hogwarts houses:</h3>
         <button  id="btn--red">Gryffindor</button>
@@ -35,7 +36,11 @@
         <button  id="btn--green">Slytherin</button>
     </div>
 
+    <!--Break added to keep quiz area clearly sperated from house selection-->
+    <br>
+
     <div id="quiz-area">
+        <h3>Quiz questions:</h3>
         <div class="questions" id="question1">Which vault in Gringotts did Hagrid empty?
             <label for="q1-answer-box">Answer here:</label>
             <input id="q1-answer-box" type="number">
@@ -56,6 +61,7 @@
             <label for="q5-answer-box">Answer here:</label>
             <input id="q5-answer-box" type="text">
         </div>
+        <br>
         <button data-type="submit" id="btn-answer-submit">Submit Answers</button>
 
     </div>
