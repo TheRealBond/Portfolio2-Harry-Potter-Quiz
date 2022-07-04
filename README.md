@@ -23,10 +23,15 @@ Use of alerts to test checkAnswers function was working correctly when comparing
 ![HTMLpassimage](../Portfolio2-Harry-Potter-Quiz/assets/images/htmlpass.png)
 
 - CSS: No errors returned when using the official [Jigsaw Validator] (https://jigsaw.w3.org/css-validator/#validate_by_input).
+![CSSpassimage](../Portfolio2-Harry-Potter-Quiz/assets/images/cssjigsawpass.png)
 
 - Javascript: No errors were returned when passing through the offical [jshint validator] (https://jshint.com/), a number of warnings are showing which has been reduced following first run through due to incorrect uses of (;).
+![Javascripttestimage](../Portfolio2-Harry-Potter-Quiz/assets/images/jshinttest.png)
+![Javasciptimproveimage](../Portfolio2-Harry-Potter-Quiz/assets/images/jshintimprove.png)
 
 - lighthouse: Lighthouse scores are now high after intial tests showed that website needed improving so labels were added to Answer boxes.
+![lighthousefailimage](../Portfolio2-Harry-Potter-Quiz/assets/images/lighthousefail.png)
+![lighthousepassimage](../Portfolio2-Harry-Potter-Quiz/assets/images/lighthousepass.png)
 
 ##Bugs: There are now no bugs remaining having encountered one that would not load the wesbite's CSS when it was deployed. This was removed by adding the correct file pathway (href="./assets/css/style.css") that needed the ./ to begin with to find the assets folder which holds the css folder and file.
 
