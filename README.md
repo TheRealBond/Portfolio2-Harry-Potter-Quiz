@@ -1,7 +1,7 @@
 # Portfolio2-Harry-Potter-Quiz
 A website built using HTML5, CSS and Javascript to allow users to test their Harry Potter knowledge.It is built to allow fans of the Harry Potter books an films to attempty a quiz that is responsive to their actions and answers to demonstrate the power of Javascript to improve the user experience of a website.
 
-##Features:
+## Features:
 
 - Header: Clearly lets the user know what the purpose of what the website is and what to expect as they scroll down, which is a quiz on Harry Potter while welcoming them.
 
@@ -13,7 +13,7 @@ A website built using HTML5, CSS and Javascript to allow users to test their Har
 
 -Future: In the future I would like to add the ability to show house scores for the duration of the day or week to enable the running of a competion bewteen fans to see which house scores the highest and would win the house cup for that time duration. This hasn't been implemented yet as it would require an external database to hold the user's score and Hogwarts house which is not set up yet.
 
-##Testing:
+## Testing:
 
 The website has been extensively tested to ensure that all features are working correctly across different browsers and devices so that as many people as possible can enjoy the challenge of the quiz it holds fairly.
 Use of alerts to test checkAnswers function was working correctly when comparing user answers to correct ones held in Javascript was especially useful as it enabled fast effective testing before alerts were removed to improve the user experience to only having one now to ask them to select a Hogwarts house. Once checkAnswers functions were confirmed as working correctly it allowed for more complex functions to be introduced depending on the outcome such as score changes and background colour changes.
@@ -33,14 +33,16 @@ Use of alerts to test checkAnswers function was working correctly when comparing
 ![lighthousefailimage](../Portfolio2-Harry-Potter-Quiz/assets/images/lighthousefail.png)
 ![lighthousepassimage](../Portfolio2-Harry-Potter-Quiz/assets/images/lighthousepass.png)
 
-##Bugs: There are now no bugs remaining having encountered one that would not load the wesbite's CSS when it was deployed. This was removed by adding the correct file pathway (href="./assets/css/style.css") that needed the ./ to begin with to find the assets folder which holds the css folder and file.
+## Bugs: 
+There are now no bugs remaining having encountered one that would not load the wesbite's CSS when it was deployed. This was removed by adding the correct file pathway (href="./assets/css/style.css") that needed the ./ to begin with to find the assets folder which holds the css folder and file.
 
-##Deployment: This website was built using Gitpod and Github services which has now been deployed at the following address: https://therealbond.github.io/Portfolio2-Harry-Potter-Quiz/ 
+## Deployment:
+ This website was built using Gitpod and Github services which has now been deployed at the following address: (https://therealbond.github.io/Portfolio2-Harry-Potter-Quiz/)
 I had to create a repository on my Github profile called: Portfolio2-Harry-Potter-Quiz. 
 Then click on settings, pages, and ensure that the Source had been set to Branch-main and /root before saving.
 This then started the process of deploying the page which loaded a live link after a few minutes.
 
-##Credits:
+## Credits:
 
 -Harry Potter:
 This quiz is based on the Harry Potter series of books and subsequent films by J.K. Rowling and Warner Bros.
@@ -48,11 +50,11 @@ This quiz is based on the Harry Potter series of books and subsequent films by J
 
 -favicon: Link to supply Mage icon that appears in browser tab alongside it's title:
  https://favicon.io/emoji-favicons/mage
-Code used: "    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+Code used: ```    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">"
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">```
     
--Font Awesome: Wizard hat icon used in <h2> to resemble the sorting hat from the books.
+-Font Awesome: Wizard hat icon used in ```<h2>``` to resemble the sorting hat from the books.
   website: https://fontawesome.com/icons/hat-wizard?s=regular
-Code used: " <i class="fa-solid fa-hat-wizard"></i>"
+Code used: ``` <i class="fa-solid fa-hat-wizard"></i>```
