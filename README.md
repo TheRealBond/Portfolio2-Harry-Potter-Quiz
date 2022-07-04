@@ -11,6 +11,8 @@ Features:
 
 - Footer: This area will also respond to the user's answers when they click the Submit Answers button by adding to the Correct and Incorrect Answer tallys depending if the user's answers are correct. It also has a hyper-link included to enable the user to click and go to the official website of Harry Potter (https://www.wizardingworld.com/) in a new tab/window where they can research their answers if needed or simply enjoy learning more about Harry Potter.
 
+-future: In the future I would like to add the ability to show house scores for the duration of the day or week to enable the running of a competion bewteen fans to see which house scores the highest and would win the house cup for that time duration. This hasn't been implemented yet as it would require an external database to hold the user's score and Hogwarts house which is not set up yet.
+
 Testing:
 
 The website has been extensively tested to ensure that all features are working correctly across different browsers and devices so that as many people as possible can enjoy the challenge of the quiz it holds fairly.
