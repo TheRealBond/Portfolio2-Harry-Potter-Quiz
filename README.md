@@ -18,11 +18,11 @@ Use of alerts to test checkAnswers function was working correctly when comparing
 
 - HTML: No errors are now returned when using the offical W3C Validator after initially discovering that an id of "question4" had been used twice and a > character was missing from (<meta charset="UTF-8")
 
-- CSS: 
+- CSS: No errors returned when using the official Jigsaw Validator.
 
-- Javascript:
+- Javascript: No errors were returned when passing through the offical jshint validator, a number of warnings are showing which has been reduced following first run through due to incorrect uses of (;).
 
-- lighthouse: 
+- lighthouse: Lighthouse scores are now high after intial tests showed that website needed improving so labels were added to Answer boxes.
 
 Bugs: There are now no bugs remaining having encountered one that would not load the wesbite's CSS when it was deployed. This was removed by adding the correct file pathway (href="./assets/css/style.css") that needed the ./ to begin with to find the assets folder which holds the css folder and file.
 
