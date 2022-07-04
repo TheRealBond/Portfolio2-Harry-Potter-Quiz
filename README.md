@@ -18,7 +18,7 @@ A website built using HTML5, CSS and Javascript to allow users to test their Har
 The website has been extensively tested to ensure that all features are working correctly across different browsers and devices so that as many people as possible can enjoy the challenge of the quiz it holds fairly.
 Use of alerts to test checkAnswers function was working correctly when comparing user answers to correct ones held in Javascript was especially useful as it enabled fast effective testing before alerts were removed to improve the user experience to only having one now to ask them to select a Hogwarts house. Once checkAnswers functions were confirmed as working correctly it allowed for more complex functions to be introduced depending on the outcome such as score changes and background colour changes.
 
-- HTML: No errors are now returned when using the offical [W3C Validator] (https://validator.w3.org/nu/#textarea) after initially discovering that an id of "question4" had been used twice and a > character was missing from (<meta charset="UTF-8")
+- HTML: No errors are now returned when using the offical [W3C Validator] (https://validator.w3.org/nu/#textarea) after initially discovering that an id of `question4` had been used twice and a `>`character was missing from `<meta charset="UTF-8`.
 ![HTMLtestimage](../Portfolio2-Harry-Potter-Quiz/assets/images/htmltest.png)
 ![HTMLpassimage](../Portfolio2-Harry-Potter-Quiz/assets/images/htmlpass.png)
 
