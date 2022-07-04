@@ -19,19 +19,19 @@ The website has been extensively tested to ensure that all features are working 
 Use of alerts to test checkAnswers function was working correctly when comparing user answers to correct ones held in Javascript was especially useful as it enabled fast effective testing before alerts were removed to improve the user experience to only having one now to ask them to select a Hogwarts house. Once checkAnswers functions were confirmed as working correctly it allowed for more complex functions to be introduced depending on the outcome such as score changes and background colour changes.
 
 - HTML: No errors are now returned when using the offical [W3C Validator] (https://validator.w3.org/nu/#textarea) after initially discovering that an id of `question4` had been used twice and a `>`character was missing from `<meta charset="UTF-8`.
-![HTMLtestimage](../Portfolio2-Harry-Potter-Quiz/assets/images/htmltest.png)
-![HTMLpassimage](../Portfolio2-Harry-Potter-Quiz/assets/images/htmlpass.png)
+![HTMLtestimage](/assets/images/htmltest.png)
+![HTMLpassimage](/assets/images/htmlpass.png)
 
 - CSS: No errors returned when using the official [Jigsaw Validator] (https://jigsaw.w3.org/css-validator/#validate_by_input).
 ![CSSpassimage](/assets/images/cssjigsawpass.png)
 
 - Javascript: No errors were returned when passing through the offical [jshint validator] (https://jshint.com/), a number of warnings are showing which has been reduced following first run through due to incorrect uses of (;).
-![Javascripttestimage](../Portfolio2-Harry-Potter-Quiz/assets/images/jshinttest.png)
-![Javasciptimproveimage](../Portfolio2-Harry-Potter-Quiz/assets/images/jshintimprove.png)
+![Javascripttestimage](/assets/images/jshinttest.png)
+![Javasciptimproveimage](/assets/images/jshintimprove.png)
 
 - lighthouse: Lighthouse scores are now high after intial tests showed that website needed improving so labels were added to Answer boxes.
-![lighthousefailimage](../Portfolio2-Harry-Potter-Quiz/assets/images/lighthousefail.png)
-![lighthousepassimage](../Portfolio2-Harry-Potter-Quiz/assets/images/lighthousepass.png)
+![lighthousefailimage](/assets/images/lighthousefail.png)
+![lighthousepassimage](/assets/images/lighthousepass.png)
 
 ## Bugs: 
 There are now no bugs remaining having encountered one that would not load the wesbite's CSS when it was deployed. This was removed by adding the correct file pathway (href="./assets/css/style.css") that needed the ./ to begin with to find the assets folder which holds the css folder and file.
