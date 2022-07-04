@@ -4,12 +4,16 @@ A website built using HTML5, CSS and Javascript to allow users to test their Har
 ## Features:
 
 - Header: Clearly lets the user know what the purpose of what the website is and what to expect as they scroll down, which is a quiz on Harry Potter while welcoming them.
+![headerimage](/assets/images/header-readme.png)
 
 - Hogwarts House selector: Allows the user to choose which Hogwarts House they belong to using the buttons. With the background colour of the quiz area responding to reflect their choice giving it that personal touch.
+![house-selectorimage](/assets/images/house-select-readme.png)
 
 - Quiz area: This is the part of the website that tests the user's knowledge by asking them to answer 5 questions based on the Harry Potter books and films. It responds to their answers when they click the Submit Answers button. Correct answers will have their answer box background changed to gold.
+![quiz-areaimage](/assets/images/quiz-area-readme.png)
 
 - Footer: This area will also respond to the user's answers when they click the Submit Answers button by adding to the Correct and Incorrect Answer tallys depending if the user's answers are correct. It also has a hyper-link included to enable the user to click and go to the official website of Harry Potter (https://www.wizardingworld.com/) in a new tab/window where they can research their answers if needed or simply enjoy learning more about Harry Potter.
+![footerimage](/assets/images/footer-readme.png)
 
 -Future: In the future I would like to add the ability to show house scores for the duration of the day or week to enable the running of a competion bewteen fans to see which house scores the highest and would win the house cup for that time duration. This hasn't been implemented yet as it would require an external database to hold the user's score and Hogwarts house which is not set up yet.
 
