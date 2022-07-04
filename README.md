@@ -1,7 +1,7 @@
 # Portfolio2-Harry-Potter-Quiz
 A website built using HTML5, CSS and Javascript to allow users to test their Harry Potter knowledge.It is built to allow fans of the Harry Potter books an films to attempty a quiz that is responsive to their actions and answers to demonstrate the power of Javascript to improve the user experience of a website.
 
-Features:
+##Features:
 
 - Header: Clearly lets the user know what the purpose of what the website is and what to expect as they scroll down, which is a quiz on Harry Potter while welcoming them.
 
@@ -11,32 +11,34 @@ Features:
 
 - Footer: This area will also respond to the user's answers when they click the Submit Answers button by adding to the Correct and Incorrect Answer tallys depending if the user's answers are correct. It also has a hyper-link included to enable the user to click and go to the official website of Harry Potter (https://www.wizardingworld.com/) in a new tab/window where they can research their answers if needed or simply enjoy learning more about Harry Potter.
 
--future: In the future I would like to add the ability to show house scores for the duration of the day or week to enable the running of a competion bewteen fans to see which house scores the highest and would win the house cup for that time duration. This hasn't been implemented yet as it would require an external database to hold the user's score and Hogwarts house which is not set up yet.
+-Future: In the future I would like to add the ability to show house scores for the duration of the day or week to enable the running of a competion bewteen fans to see which house scores the highest and would win the house cup for that time duration. This hasn't been implemented yet as it would require an external database to hold the user's score and Hogwarts house which is not set up yet.
 
-Testing:
+##Testing:
 
 The website has been extensively tested to ensure that all features are working correctly across different browsers and devices so that as many people as possible can enjoy the challenge of the quiz it holds fairly.
 Use of alerts to test checkAnswers function was working correctly when comparing user answers to correct ones held in Javascript was especially useful as it enabled fast effective testing before alerts were removed to improve the user experience to only having one now to ask them to select a Hogwarts house. Once checkAnswers functions were confirmed as working correctly it allowed for more complex functions to be introduced depending on the outcome such as score changes and background colour changes.
 
-- HTML: No errors are now returned when using the offical W3C Validator after initially discovering that an id of "question4" had been used twice and a > character was missing from (<meta charset="UTF-8")
+- HTML: No errors are now returned when using the offical [W3C Validator] (https://validator.w3.org/nu/#textarea) after initially discovering that an id of "question4" had been used twice and a > character was missing from (<meta charset="UTF-8")
+![HTMLtestimage](../Portfolio2-Harry-Potter-Quiz/assets/images/htmltest.png)
+![HTMLpassimage](../Portfolio2-Harry-Potter-Quiz/assets/images/htmlpass.png)
 
-- CSS: No errors returned when using the official Jigsaw Validator.
+- CSS: No errors returned when using the official [Jigsaw Validator] (https://jigsaw.w3.org/css-validator/#validate_by_input).
 
-- Javascript: No errors were returned when passing through the offical jshint validator, a number of warnings are showing which has been reduced following first run through due to incorrect uses of (;).
+- Javascript: No errors were returned when passing through the offical [jshint validator] (https://jshint.com/), a number of warnings are showing which has been reduced following first run through due to incorrect uses of (;).
 
 - lighthouse: Lighthouse scores are now high after intial tests showed that website needed improving so labels were added to Answer boxes.
 
-Bugs: There are now no bugs remaining having encountered one that would not load the wesbite's CSS when it was deployed. This was removed by adding the correct file pathway (href="./assets/css/style.css") that needed the ./ to begin with to find the assets folder which holds the css folder and file.
+##Bugs: There are now no bugs remaining having encountered one that would not load the wesbite's CSS when it was deployed. This was removed by adding the correct file pathway (href="./assets/css/style.css") that needed the ./ to begin with to find the assets folder which holds the css folder and file.
 
-Deployment: This website was built using Gitpod and Github services which has now been deployed at the following address: https://therealbond.github.io/Portfolio2-Harry-Potter-Quiz/ 
+##Deployment: This website was built using Gitpod and Github services which has now been deployed at the following address: https://therealbond.github.io/Portfolio2-Harry-Potter-Quiz/ 
 I had to create a repository on my Github profile called: Portfolio2-Harry-Potter-Quiz. 
 Then click on settings, pages, and ensure that the Source had been set to Branch-main and /root before saving.
-This then started the process of deploying the page which loaded a live link after a few minutes
+This then started the process of deploying the page which loaded a live link after a few minutes.
 
-Credits:
+##Credits:
 
 -Harry Potter:
-This quiz is based on the Harry Potter series of books and subsequent films by J.K. Rowling and Warner Bros. It was built to help fans test their knowledge about a series of books that I love.
+This quiz is based on the Harry Potter series of books and subsequent films by J.K. Rowling and Warner Bros.
 
 
 -favicon: Link to supply Mage icon that appears in browser tab alongside it's title:
