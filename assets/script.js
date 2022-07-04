@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
             } else if (this.getAttribute("id") === "btn--green") {
                 displaySlytherin();
             }
-        })
+        });
     }
-})
+});
 
 //This sets the variable of house to allow running of alert to ask user to choose house.
 var house = "unknown";
@@ -46,28 +46,28 @@ function checkAnswers() {
     } else {
         incorrectScore();
     }
-    let userAnswer2 = (document.getElementById("q2-answer-box").value)
+    let userAnswer2 = (document.getElementById("q2-answer-box").value);
     let correctUserAnswer2 = "Nimbus 2000";
     if (userAnswer2 === correctUserAnswer2) {
         increaseScore();
     } else {
         incorrectScore();
     }
-    let userAnswer3 = (document.getElementById("q3-answer-box").value)
+    let userAnswer3 = (document.getElementById("q3-answer-box").value);
     let correctUserAnswer3 = "Godric's Hollow";
     if (userAnswer3 === correctUserAnswer3) {
         increaseScore();
     } else {
         incorrectScore();
     }
-    let userAnswer4 = (document.getElementById("q4-answer-box").value)
+    let userAnswer4 = (document.getElementById("q4-answer-box").value);
     let correctUserAnswer4 = "Stag";
     if (userAnswer4 === correctUserAnswer4) {
         increaseScore();
     } else {
         incorrectScore();
     }
-    let userAnswer5 = (document.getElementById("q5-answer-box").value)
+    let userAnswer5 = (document.getElementById("q5-answer-box").value);
     let correctUserAnswer5 = "Nicolas Flamel";
     if (userAnswer5 === correctUserAnswer5) {
         increaseScore();
