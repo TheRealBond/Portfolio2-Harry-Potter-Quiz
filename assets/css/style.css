@@ -7,7 +7,6 @@ header {
     height: 50%;
     width: 100%;
     margin: 0 auto;
-    padding: 5%;
 }
 
 body{
@@ -16,7 +15,6 @@ body{
     color: brown;
     width: 100%;
     margin: 0 auto;
-    padding: 5%;
     background-color: lightyellow;
     text-align: center;
 }
