@@ -58,7 +58,7 @@ function checkAnswers() {
         document.getElementById("q2-answer-box").style.backgroundColor = "white";
     }
     let userAnswer3 = (document.getElementById("q3-answer-box").value);
-    let correctUserAnswer3 = "Godric's Hollow";
+    let correctUserAnswer3 = "Godrics Hollow";
     if (userAnswer3 === correctUserAnswer3) {
         increaseScore();
         document.getElementById("q3-answer-box").style.backgroundColor = "gold";
